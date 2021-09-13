@@ -1,0 +1,100 @@
+html{
+    background-color: black;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(244, 9, 9);
+    font-family: serif;
+    text-shadow: rgb(255 235 1) 2px 2px 6px;
+}
+
+.search{
+    margin: auto;
+    margin-top: 5vh;
+    width: 79vw;
+}
+
+#searchbar{
+    height: 8vh;
+    width: 67.5vw;
+    border-radius: 5px;
+    padding-left: 1em;
+    font-size: 3vmin;
+    box-sizing: border-box;
+}
+
+#searchbtn{
+    width: 10.5vw;
+    height: 9vh;
+    border-radius: 5px;
+    background-color: #ffc800;
+    font-size: 3vmin;
+    font-weight: 600;
+}
+
+#searchbar:hover{
+    border: inset;
+}
+
+#searchbtn:hover{
+    background-color: #e6b20a;
+    cursor: pointer;
+}
+
+
+/* for responsiveness of website  */
+@media (max-width:1420px){
+    #searchbar{
+        width: 78vw;
+    }
+    #searchbtn{
+        width: 78vw;
+        margin-top: 0.3em;
+        text-align: center;
+    }
+}
+
+#box{
+    height: 80vh;
+}
+
+#content {
+    display: block;
+    padding-right: 2px;
+    margin: auto;
+    background-color: #80808063;
+    width: 78vw;
+    height: 75vh;
+}
+
+.info{
+    color: white;
+    margin-left: 29vw;
+    font-size: 1.2vmax;
+   
+}
+
+#title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0a77ff;
+}
+
+img{
+    float: left;
+    width: 27vw;
+    height: 75vh;
+}
+
+footer{
+    position: relative;
+    left: 2;
+    bottom: 0;
+    color: white;
+    font-style: italic;
+}
