@@ -4,7 +4,7 @@ searchbtn.addEventListener("click", showInfo);
 async function getInfo(params) {
     try {
         const response = await fetch(
-            `http://www.omdbapi.com/?apikey=c2de8eb5&t=${params}`,
+            `https://www.omdbapi.com/?apikey=c2de8eb5&t=${params}`,
             {
                 method: "GET",
             }
